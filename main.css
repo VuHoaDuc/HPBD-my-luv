@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #151515;
+  }
+  
+  .base {
+    background: #cacaca;
+    width: 20vmin;
+    border-radius: 27vmin;
+    box-shadow: 0 6vmin 0.15vmin 0vmin #777, 0 4vmin 0.15vmin 0vmin #777, 0 2vmin 0.15vmin 0vmin #777;
+    padding: 0vmin 2vmin 2vmin 2vmin;
+    z-index: 1;
+    transform: rotateX(60deg) rotateZ(0deg);
+    margin-top: -4.5vmin;
+    height: 22vmin;
+  }
+  
+  .video {
+      position: absolute;
+    width: 90vmin;
+    height: 90vmin;
+    background: #00bcd47d;
+    opacity: 0.5;
+    border: 3px solid #00a4b9;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px 0 #00bcd48a;
+  }
